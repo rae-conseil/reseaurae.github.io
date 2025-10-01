@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAÉ - Réseau d'Accompagnement Éducatif</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <h2>RAÉ</h2>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#accueil" class="nav-link">Accueil</a>
+                <a href="#qui-sommes-nous" class="nav-link">Qui sommes-nous</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#prestations" class="nav-link">Prestations</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Section Accueil -->
+    <section id="accueil" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Conseil & accompagnement en éducation spécialisée</h1>
+                <p class="hero-subtitle">Réseau d'Accompagnement Éducatif - RAÉ accompagne les établissements du secteur médico-social dans leur développement et l'amélioration de leurs pratiques.</p>
+                <div class="hero-actions">
+                    <button class="btn btn--primary btn--lg" onclick="scrollToSection('contact')">Demander un devis</button>
+                    <button class="btn btn--outline btn--lg" onclick="scrollToSection('services')">Découvrir nos services</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Aperçu -->
+    <section class="services-preview">
+        <div class="container">
+            <h2 class="section-title">Nos domaines d'expertise</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Conseil en organisation</h3>
+                    <p>Analyse et optimisation des processus de travail, clarification des rôles & responsabilités.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Conseil stratégique</h3>
+                    <p>Projets d'établissement, orientations pédagogiques & éducatives, démarches qualité.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Gestion & management</h3>
+                    <p>Formation des encadrants, gestion RH, conduite du changement et prévention des RPS.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Soutien professionnel</h3>
+                    <p>Supervision d'équipes, accompagnement individuel, médiation en situation complexe.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pourquoi choisir RAÉ -->
+    <section class="advantages">
+        <div class="container">
+            <h2 class="section-title">Pourquoi choisir RAÉ ?</h2>
+            <div class="advantages-grid">
+                <div class="advantage-item">Expertise de terrain reconnue</div>
+                <div class="advantage-item">Approche sur-mesure et contexte-sensible</div>
+                <div class="advantage-item">Méthodologies adossées aux référentiels du secteur</div>
+                <div class="advantage-item">Confidentialité et déontologie garanties</div>
+                <div class="advantage-item">Indicateurs et résultats observables</div>
+                <div class="advantage-item">Flexibilité d'intervention (formats, rythmes, lieux)</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Témoignages -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">Ce que disent nos clients</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial">
+                    <blockquote>"Les GAP ont recréé une dynamique d'amélioration continue au sein de l'équipe."</blockquote>
+                </div>
+                <div class="testimonial">
+                    <blockquote>"L'accompagnement nous a aidés à clarifier les rôles et à sécuriser nos pratiques."</blockquote>
+                </div>
+                <div class="testimonial">
+                    <blockquote>"Un regard externe bienveillant et exigeant, avec des effets concrets pour les usagers."</blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Qui sommes-nous -->
+    <section id="qui-sommes-nous" class="about">
+        <div class="container">
+            <h2 class="section-title">Qui sommes-nous ?</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Notre mission</h3>
+                    <p>RAÉ accompagne les établissements et services du secteur médico-social dans leur développement et l'amélioration continue de leurs pratiques professionnelles.</p>
+                    
+                    <h3>Notre équipe dirigeante</h3>
+                    <div class="founders">
+                        <div class="founder">
+                            <h4>Hélian Soutter</h4>
+                            <p>Co-fondateur</p>
+                        </div>
+                        <div class="founder">
+                            <h4>Randy Osei</h4>
+                            <p>Co-fondateur</p>
+                        </div>
+                        <div class="founder">
+                            <h4>Brahim N'Diaye</h4>
+                            <p>Co-fondateur</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3>Notre méthode d'intervention</h3>
+            <div class="method-steps">
+                <div class="method-step">
+                    <div class="step-number">1</div>
+                    <h4>Diagnostic initial</h4>
+                    <p>Analyse de l'existant, des besoins et des ressources ; définition d'objectifs mesurables</p>
+                </div>
+                <div class="method-step">
+                    <div class="step-number">2</div>
+                    <h4>Co-construction</h4>
+                    <p>Élaboration participative des solutions ; respect des valeurs et de la culture institutionnelle</p>
+                </div>
+                <div class="method-step">
+                    <div class="step-number">3</div>
+                    <h4>Accompagnement personnalisé</h4>
+                    <p>Suivi de la mise en œuvre ; ajustements en temps réel ; formations ciblées</p>
+                </div>
+                <div class="method-step">
+                    <div class="step-number">4</div>
+                    <h4>Pérennisation</h4>
+                    <p>Transfert de compétences, outillage de suivi autonome ; formation de référent·es internes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Services détaillés -->
+    <section id="services" class="services-detail">
+        <div class="container">
+            <h2 class="section-title">Nos services</h2>
+            <div class="services-detailed">
+                <div class="service-detailed">
+                    <h3>Conseil en organisation</h3>
+                    <p>Analyse et optimisation des processus de travail, clarification des rôles & responsabilités, circuits de communication, restructuration des équipes et accompagnement des réorganisations</p>
+                </div>
+                <div class="service-detailed">
+                    <h3>Conseil stratégique</h3>
+                    <p>Projets d'établissement : élaboration, révision, suivi. Orientations pédagogiques & éducatives, cadre de référence. Démarches qualité et évaluations externes ; veille et adaptations réglementaires</p>
+                </div>
+                <div class="service-detailed">
+                    <h3>Gestion & management</h3>
+                    <p>Formation des encadrants aux fondamentaux du management, gestion des ressources humaines et outillage de pilotage (indicateurs, tableaux de bord), conduite du changement et prévention des risques psychosociaux (RPS)</p>
+                </div>
+                <div class="service-detailed">
+                    <h3>Services de soutien professionnel</h3>
+                    <p>Supervision d'équipes éducatives, accompagnement individuel (postures, analyse de situations, prise de fonction), médiation et appui en situation complexe ou conflictuelle</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Prestations phares -->
+    <section id="prestations" class="featured-services">
+        <div class="container">
+            <h2 class="section-title">Nos prestations phares</h2>
+            
+            <div class="featured-service">
+                <h3>GAP - Groupes d'Analyse des Pratiques</h3>
+                <div class="service-content">
+                    <div class="service-info">
+                        <h4>Objectif</h4>
+                        <p>Développer la réflexivité des professionnel·les et améliorer la qualité des interventions</p>
+                        
+                        <h4>Modalités</h4>
+                        <p>Séances collectives régulières, animées par un intervenant externe ; analyse de situations concrètes ; échanges structurés et sécurisés ; élaboration de pistes d'action</p>
+                        
+                        <h4>Bénéfices</h4>
+                        <p>Montée en compétences, cohésion d'équipe, prévention de l'usure professionnelle, meilleure continuité d'accompagnement</p>
+                    </div>
+                </div>
+
+                <div class="pricing-table">
+                    <h4>Tarification GAP</h4>
+                    <div class="pricing-grid">
+                        <div class="pricing-item">
+                            <h5>Format court</h5>
+                            <div class="price">160 €</div>
+                            <div class="duration">1 h</div>
+                            <p class="pricing-note">Pour démarrage/test ou besoins ciblés</p>
+                        </div>
+                        <div class="pricing-item">
+                            <h5>Format standard</h5>
+                            <div class="price">320 €</div>
+                            <div class="duration">2 h</div>
+                            <p class="pricing-note">Format recommandé (équipe 6-12 pers.)</p>
+                        </div>
+                        <div class="pricing-item">
+                            <h5>Forfait 6 mois</h5>
+                            <div class="price">1 824 €</div>
+                            <div class="duration">6 × 2 h</div>
+                            <p class="pricing-note">Soit 304 € / séance (≈ -5 %)</p>
+                        </div>
+                        <div class="pricing-item">
+                            <h5>Forfait 12 mois</h5>
+                            <div class="price">3 456 €</div>
+                            <div class="duration">12 × 2 h</div>
+                            <p class="pricing-note">Soit 288 € / séance (≈ -10 %)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="featured-service">
+                <h3>Groupes de parole professionnels</h3>
+                <div class="service-content">
+                    <div class="service-info">
+                        <h4>Objectif</h4>
+                        <p>Offrir un espace d'expression, de régulation et de soutien mutuel</p>
+                        
+                        <h4>Contenu</h4>
+                        <p>Gestion du stress et des émotions, communication interprofessionnelle, prévention des RPS</p>
+                        
+                        <h4>Méthode</h4>
+                        <p>Animation par des professionnel·les formé·es aux techniques de groupe, cadre éthique et confidentiel, fréquence ajustée aux besoins</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="travel-info">
+                <h4>Exemples de déplacements</h4>
+                <div class="travel-grid">
+                    <div class="travel-item">
+                        <strong>Strasbourg ↔ Metz</strong><br>
+                        330 km - 209,88 € (A4 - hors péages)
+                    </div>
+                    <div class="travel-item">
+                        <strong>Strasbourg ↔ Reims</strong><br>
+                        690 km - 438,84 € (A4 - hors péages)
+                    </div>
+                    <div class="travel-item">
+                        <strong>Strasbourg ↔ Mulhouse</strong><br>
+                        230 km - 146,28 € (A35 - hors péages)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contactez-nous</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Informations pratiques</h3>
+                    <div class="contact-detail">
+                        <strong>Email :</strong> contact@rae-group.net
+                    </div>
+                    <div class="contact-detail">
+                        <strong>Localisation :</strong> Strasbourg, Grand Est
+                    </div>
+                    <div class="contact-detail">
+                        <strong>Zone d'intervention :</strong> Grand Est (autres régions sur demande)
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <h3>Demande de renseignements</h3>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Nom *</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email *</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="organization" class="form-label">Établissement / Organisation</label>
+                            <input type="text" id="organization" name="organization" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="service" class="form-label">Service souhaité</label>
+                            <select id="service" name="service" class="form-control">
+                                <option value="">Sélectionnez un service</option>
+                                <option value="conseil-organisation">Conseil en organisation</option>
+                                <option value="conseil-strategique">Conseil stratégique</option>
+                                <option value="gestion-management">Gestion & management</option>
+                                <option value="soutien-professionnel">Soutien professionnel</option>
+                                <option value="gap">GAP - Groupes d'Analyse des Pratiques</option>
+                                <option value="groupes-parole">Groupes de parole professionnels</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message *</label>
+                            <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full-width">Envoyer la demande</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>RAÉ</h4>
+                    <p>Réseau d'Accompagnement Éducatif</p>
+                    <p>Conseil & accompagnement en éducation spécialisée</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: contact@rae-conseil.fr</p>
+                    <p>Strasbourg, Grand Est</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Légal</h4>
+                    <a href="#" onclick="showModal('mentionsModal')">Mentions légales</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 RAÉ - Réseau d'Accompagnement Éducatif. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal Mentions Légales -->
+    <div class="modal hidden" id="mentionsModal">
+        <div class="modal-overlay" onclick="hideModal('mentionsModal')"></div>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Mentions légales</h3>
+                <button class="modal-close" onclick="hideModal('mentionsModal')">&times;</button>
+            </div>
+            <div class="modal-body">
+                <h4>Éditeur du site</h4>
+                <p><strong>RAÉ - Réseau d'Accompagnement Éducatif</strong><br>
+                Strasbourg, Grand Est<br>
+                Email: contact@rae-conseil.fr</p>
+
+                <h4>Directeurs de publication</h4>
+                <p>Hélian Soutter, Randy Osei, Brahim N'Diaye</p>
+
+                <h4>Hébergement</h4>
+                <p>Ce site est hébergé en conformité avec la réglementation française en vigueur.</p>
+
+                <h4>Propriété intellectuelle</h4>
+                <p>Tous les contenus présents sur ce site (textes, images, logos) sont protégés par les droits d'auteur et appartiennent à RAÉ ou à leurs propriétaires respectifs.</p>
+
+                <h4>Données personnelles</h4>
+                <p>Les informations recueillies via les formulaires de contact sont utilisées uniquement pour répondre à vos demandes et ne sont pas transmises à des tiers.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal de confirmation -->
+    <div class="modal hidden" id="confirmationModal">
+        <div class="modal-overlay" onclick="hideModal('confirmationModal')"></div>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Message envoyé</h3>
+                <button class="modal-close" onclick="hideModal('confirmationModal')">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>Votre demande a bien été prise en compte. Nous vous répondrons dans les plus brefs délais.</p>
+                <button class="btn btn--primary" onclick="hideModal('confirmationModal')">Fermer</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
