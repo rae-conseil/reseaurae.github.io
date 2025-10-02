@@ -98,7 +98,7 @@ function hideModal(modalId) {
 }
 
 // Contact form handling
-function initContactForm() {
+function {
     const contactForm = document.getElementById('contactForm');
     
     if (contactForm) {
